@@ -1,0 +1,13 @@
+language: "en-US"
+reviews:
+  profile: "chill"
+  request_changes_workflow: true
+  poem: false
+  collapse_walkthrough: false
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    drafts: false
+
+chat:
+  auto_reply: true
