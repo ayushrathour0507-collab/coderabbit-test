@@ -9,6 +9,14 @@ This project is a minimal TypeScript setup to verify your PR workflow with CodeR
 - GitHub Action for pull request checks
 - `.coderabbit.yaml` for CodeRabbit behavior
 
+## Math helpers
+
+Current helpers live in `src/math.ts`:
+
+- `divide(a, b)` (throws on \(b = 0\))
+- `total(values)`
+- `average(values)` (throws on empty array)
+
 ## Quick start
 
 1. Initialize git and push to GitHub:
@@ -20,6 +28,8 @@ This project is a minimal TypeScript setup to verify your PR workflow with CodeR
    - `npm install`
 3. Run local checks:
    - `npm run check`
+4. Run tests:
+   - `npm test`
 
 ## Verify CodeRabbit integration
 
